@@ -5,7 +5,13 @@ import GithubIcon from "../assets/github.png";
 const Github: React.FC = () => {
   return (
     <>
-      <Icon src={GithubIcon} alt="github" />
+      <a
+        href="https://github.com/nutthanonn/ctf-flag-generator"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Icon src={GithubIcon} alt="github" />
+      </a>
     </>
   );
 };
