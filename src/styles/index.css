@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Menlo";
+  src: url("../assets/Menlo-Regular.ttf") format("truetype");
+}
+
+* {
+  font-family: "Menlo";
+}
+
+body {
+  background: linear-gradient(
+    to right,
+    #232526,
+    #414345
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
